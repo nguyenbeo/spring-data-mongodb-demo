@@ -23,9 +23,7 @@ import de.flapdoodle.embed.mongo.distribution.Version;
 @EnableMongoRepositories("com.kthsoft.springdata.mongodb.demo.repository")
 public class EmbededMongoDbConfig {
 	private static final MongodStarter starter = MongodStarter.getDefaultInstance();
-	private static final String mongodbHost = "localhost";
-	private static final int mongodbPort = 28023;
-	
+
 	@SuppressWarnings("SpringJavaAutowiringInspection") 
     @Autowired
     private MongoProperties properties;
