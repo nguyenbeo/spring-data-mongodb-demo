@@ -23,6 +23,12 @@ public class Payment {
 	public void setCurrency(String currency) {
 		this.currency = currency;
 	}
+	public String getPaymentReference() {
+		return paymentReference;
+	}
+	public void setPaymentReference(String paymentReference) {
+		this.paymentReference = paymentReference;
+	}
 	
 	
 }
